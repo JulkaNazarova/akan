@@ -1,0 +1,8 @@
+mixin weather(data)
+  a(href="javascript:void(0);").weather
+    .img-wrap
+      img(src=`../img/${data.img}` alt='', title='' width=data.width height=data.height).weather__pic
+    .weather__town=data.town
+    .weather__precipitation=data.precipitation
+    .wheater__temperature=data.temperature
+  

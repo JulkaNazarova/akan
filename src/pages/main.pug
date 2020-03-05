@@ -1,0 +1,34 @@
+extends ../templates/template
+block content
+  main
+    .container-custom
+      .wheater
+        .wheater_info
+          ul.wheater_list
+            li.wheater_item
+            p.wheater_town Крым
+            li.wheater_item
+            p.wheater_precipitation Солнечно
+            li.wheater_item
+            p.wheater_temperature 27
+      .filter__bg
+    .container
+      .row
+        .col-12
+          ul.back_call
+            li.back_call_text
+              p.call_text Оставьте номер и мы вам перезвоним
+            li.back_call_form
+              input(type="tel" placeholder="Ваш Телефон").input
+              .call_viber
+                a(href="javascript:void(0);").button.button-tr.button-viber Viber 
+              .call_whatsapp
+                a(href="javascript:void(0);").button.button-tr.button-whatsapp Whatsapp 
+              .call_konsult
+                a(href="javascript:void(0);").button.button-red Получить консультацию 
+
+
+
+    
+
+
